@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d17b5c8a.css",
+    "main.js": "/static/js/main.46475e6a.js",
+    "static/js/787.fdfc94ac.chunk.js": "/static/js/787.fdfc94ac.chunk.js",
+    "static/media/hearts-bg.png": "/static/media/hearts-bg.ffe678e0c2c1846c509f.png",
+    "static/media/BetterGrade-519DV.ttf": "/static/media/BetterGrade-519DV.c69017ab764fe1f55cb1.ttf",
+    "index.html": "/index.html",
+    "main.d17b5c8a.css.map": "/static/css/main.d17b5c8a.css.map",
+    "main.46475e6a.js.map": "/static/js/main.46475e6a.js.map",
+    "787.fdfc94ac.chunk.js.map": "/static/js/787.fdfc94ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d17b5c8a.css",
+    "static/js/main.46475e6a.js"
+  ]
+}
