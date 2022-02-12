@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: Tinos;
+  src: url(https://fonts.googleapis.com/css?family=Tinos);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(https://fonts.googleapis.com/css?family=Lato);
+}
+
+@font-face {
+  font-family: BetterGrade;
+  src: url("./fonts/BetterGrade-519DV.ttf");
+}
+
+.Home {
+  /* font-family: 'Lato'; */
+  /* font-family: adelle-sans, sans-serif; */
+  font-family: tenon, sans-serif;
+}
+
+.Credits {
+  font-family: 'Lato';
+  position: relative;
+  height: 100%;
+}
+
+.cardCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.cardCenterVertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(40%);
+}
+
+.cardInsert {
+  margin-top: 0;
+  width: 290px;
+  height: 150px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'BetterGrade';
+}
+
+.middleButton {
+  position: fixed;
+  /* text-align: center; */
+  transform: translateX(70%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  /* transform: translateY(50%); */
+}
+
+body {
+  background: url('backgrounds/hearts-bg.png');
+  background-position: 45% 25%;
+  background-size: 75%;
+}
