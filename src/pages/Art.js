@@ -33,7 +33,6 @@ function Art() {
         </p>
       </CardContent>
       <CardActions sx={{ position: 'absolute', left: 0, bottom: 0}}>
-        <Button size="small">Open</Button>
       </CardActions>
     </React.Fragment>
   );
