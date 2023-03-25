@@ -36,6 +36,8 @@ function App() {
     setState({ ...state, appear: appear });
     navigate("/" + text);
   };
+
+  const appBarStyle = { background: '#787276' }
   
   return (
     <div className="App">
@@ -44,7 +46,7 @@ function App() {
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       />
       {/* <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tinos" /> */}
-      <AppBar position="static" style={{ background: '#A32CC4' }}>
+      <AppBar position="static" style={ appBarStyle }>
         <Toolbar>
           <IconButton
             size="large"
@@ -57,7 +59,7 @@ function App() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Heather's Valentine's Day Site
+            Brian's Test Site
           </Typography>
         </Toolbar>
       </AppBar>

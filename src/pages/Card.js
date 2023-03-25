@@ -62,9 +62,9 @@ function Item(props)
             <img src={props.item.name} alt="jeff goldblum" width={props.item.width} height={props.item.height} class={props.item.style}/>
             { props.item.name === "./goldblum2.jpg" ?  
               <p class="cardInsert">
-                You are absolutely amazing! <br/>
-                I love you <br/>
-                -Brian
+                Love always uhh.... <br/>
+                Finds a way<br/>
+                - Jeff Goldblum
               </p>
             : <p></p>
             }
